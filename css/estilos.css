@@ -1,0 +1,79 @@
+header {
+  background-color: white;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+header h1 {
+  font-size: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100; }
+
+header nav img {
+  width: 80px; }
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center; }
+
+header nav li {
+  margin: 10px;
+  color: black; }
+
+header nav a {
+  color: black; }
+
+header li {
+  margin: 10px; }
+
+header a {
+  color: black; }
+
+.grid-galeria .grid-item {
+  position: relative; }
+  .grid-galeria .grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; }
+  .grid-galeria .grid-item .grid-item h3 {
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+    color: #ffc164;
+    background-color: rgba(255, 228, 196, 0.265);
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 10px; }
+
+.productos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px; }
+  .productos div {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; }
+    .productos div img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover; }
+    .productos div a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #010101;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px; }
